@@ -1,0 +1,40 @@
+----------------------------------------BASICS---------------------------------------------
+git clone <url> (create repository from GitHub to device)
+
+git status
+
+git init (initialize gti repo) (if cloned then it is already initialized)
+
+git add <filename>
+
+git add --a(for all files)
+
+git commit -m "note"
+
+git commit -am "note" (for direct commit of tracked files)
+
+git push
+
+-------------------------------------------------------------------------------------------
+
+git pull
+
+git log
+
+-------------------------------------------REVERT-BACK-------------------------------------
+
+git reset --hard <commit> (revert back the changes) (hash value of commit) (get from log)
+
+git reset --hard origin/master (directly goto master)
+
+-------------------------------------------BRANCHING---------------------------------------
+
+git branch (get names of branches)
+
+git checkout -b <branchName> (create a new branch)
+
+git checkout <branchName> (goto branch)
+
+git merge <branchName>
+
+-------------------------------------------------------------------------------------------
